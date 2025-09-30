@@ -5,7 +5,7 @@
 ## 👨‍💻 Участники команды
 
 - **Kamenskikh Valeriy** — Software Engineer
-- **Kaledin Daniil** — Software Engineer
+- **Kaledin Danila** — Software Engineer
 - **Matveeva Anna** — Data Science Engineer
 - **Lapova Julia** — Data Science Engineer
 
