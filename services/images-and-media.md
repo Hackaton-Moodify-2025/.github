@@ -16,12 +16,38 @@ layout:
     visible: true
 ---
 
-# Machine Learning Service
+# Machine Learning Service (Python)
 
-GitBook allows you to add images and media easily to your docs. Simply drag a file into the editor, or use the file manager in the upper right corner to upload multiple images at once.
+## ML Service
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/images-hero.png" alt=""><figcaption><p>Add alt text and captions to your images</p></figcaption></figure>
+### Назначение
 
-{% hint style="info" %}
-You can also add images simply by copying and pasting them directly into the editor — and GitBook will automatically add it to your file manager.
-{% endhint %}
+Модуль машинного обучения для анализа клиентских отзывов:
+
+* Кластеризация текстов (выделение тем: кредитные карты, вклады, мобильное приложение и т.д.).
+* Мультилейбл классификация по темам.
+* Определение тональности (положительно / нейтрально / отрицательно).
+
+### API
+
+*   `POST /analyze`
+
+    ```json
+    {"data":[{"id":1,"text":"Карта понравилась, но приложение лагает"}]}
+    ```
+
+### Ответ:
+
+`{"predictions":[{"id":1,"topics":["Кредитная карта","Мобильное приложение"],"sentiments":["положительно","отрицательно"]}]}`
+
+### Сборка и запуск контейнера
+
+`docker compose up -d --build`
+
+### HealthCheck
+
+`curl http://localhost:8000/health`
+
+### Проверка работоспособности FASTAPI
+
+`curl -X POST "http://localhost:8000/analyze" -H "Content-Type: application/json" -d '{"data":[{"id":1,"text":"Очень понравилось обслуживание в отделении, но мобильное приложение часто зависает."},{"id":2,"text":"Кредитную карту одобрили быстро, но лимит слишком маленький."}]}'`

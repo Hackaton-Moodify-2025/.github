@@ -8,7 +8,7 @@
 
 ## Services
 
-* [Backend Service](services/editor.md)
-* [Frontend Service](services/markdown.md)
-* [Ingest Service](services/interactive-blocks.md)
-* [Machine Learning Service](services/images-and-media.md)
+* [Backend Service (Golang)](services/editor.md)
+* [Frontend Service (React.js)](services/markdown.md)
+* [Ingest Service (Node.js)](services/interactive-blocks.md)
+* [Machine Learning Service (Python)](services/images-and-media.md)
