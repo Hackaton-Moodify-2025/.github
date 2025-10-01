@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# Frontend Service
+# Frontend Service (React.js)
 
 ## Frontend Service Dashboard
 

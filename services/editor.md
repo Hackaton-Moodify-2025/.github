@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# Backend Service
+# Backend Service (Golang)
 
 ## Backend Service
 
