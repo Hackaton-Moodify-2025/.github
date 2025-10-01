@@ -100,8 +100,12 @@ go run cmd/server/main.go
 
 ### Сборка и запуск контейнера
 
-`docker compose up -d --build`
+```bash
+docker compose up -d --build
+```
 
 ### HealthCheck
 
-`curl http://localhost:8000/health`
+```bash
+curl http://localhost:8000/health
+```
