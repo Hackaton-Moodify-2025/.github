@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Привет!](README.md)
+* [👋 Moodify Team](README.md)
 
 ## Getting Started
 
@@ -14,3 +14,8 @@
 * [Images & media](basics/images-and-media.md)
 * [Interactive blocks](basics/interactive-blocks.md)
 * [Integrations](basics/integrations.md)
+
+***
+
+* [0249238](0249238/README.md)
+  * [README](0249238/readme.md)
