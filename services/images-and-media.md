@@ -18,7 +18,7 @@ layout:
 
 # Machine Learning Service (Python)
 
-## ML Service
+## [ML Service](https://github.com/Hackaton-Moodify-2025/ml)
 
 ### Назначение
 

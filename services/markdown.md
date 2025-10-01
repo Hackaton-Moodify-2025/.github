@@ -18,7 +18,7 @@ layout:
 
 # Frontend Service (React.js)
 
-## Frontend Service Dashboard
+## [Frontend Service Dashboard](https://github.com/Hackaton-Moodify-2025/frontend)
 
 Аналитический дашборд для оценки пользовательских отзывов о банке https://www.gazprombank.ru/
 

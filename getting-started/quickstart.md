@@ -18,7 +18,7 @@ layout:
 
 # Quickstart
 
-## Frontend Service (React.js)
+## [Frontend Service (React.js)](https://github.com/Hackaton-Moodify-2025/frontend)
 
 ### Установка и запуск
 
@@ -38,7 +38,7 @@ npm run dev
 
 ***
 
-## Backend Service (Golang)
+## [Backend Service (Golang)](https://github.com/Hackaton-Moodify-2025/backend)
 
 #### Запуск с Docker (рекомендуется)
 
@@ -96,7 +96,7 @@ go run cmd/server/main.go
 
 ***
 
-## Machine Learning Service (Python)
+## [Machine Learning Service (Python)](https://github.com/Hackaton-Moodify-2025/ml)
 
 ### Сборка и запуск контейнера
 

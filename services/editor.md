@@ -18,7 +18,7 @@ layout:
 
 # Backend Service (Golang)
 
-## Backend Service
+## [Backend Service](https://github.com/Hackaton-Moodify-2025/backend)
 
 ### Назначение
 
