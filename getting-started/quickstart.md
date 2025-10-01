@@ -18,10 +18,36 @@ layout:
 
 # Quickstart
 
-Frontend Service&#x20;
+## Frontend Service (React.js)
 
-Backend Service
+## Backend Service (Golang)
 
-Ingest Service
+## Ingest Service (Node.js)
 
-Machine Learning Service
+### Установка и запуск
+
+1.  Клонируйте репозиторий:
+
+    ```bash
+    git clone https://github.com/Hackaton-Moodify-2025/ingest.git
+    cd ingest
+    ```
+2.  Перейдите в нужный модуль (например, `banki`):
+
+    ```bash
+    cd banki
+    npm install
+    node parser_links.js
+    node parser_texts.js
+    ```
+3. После завершения парсинга данные будут сохранены в `reviews.json`.
+
+## Machine Learning Service (Python)
+
+### Сборка и запуск контейнера
+
+`docker compose up -d --build`
+
+### HealthCheck
+
+`curl http://localhost:8000/health`
