@@ -1,5 +1,5 @@
 ---
-icon: markdown
+icon: browser
 layout:
   width: default
   title:
@@ -16,25 +16,81 @@ layout:
     visible: true
 ---
 
-# Markdown
+# Frontend Service
 
-GitBook supports many different types of content, and is backed by Markdown — meaning you can copy and paste any existing Markdown files directly into the editor!
+## Frontend Service Dashboard
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/markdown-hero.png" alt=""><figcaption></figcaption></figure>
+Аналитический дашборд для оценки пользовательских отзывов о банке https://www.gazprombank.ru/
 
-Feel free to test it out and copy the Markdown below by hovering over the code block in the upper right, and pasting into a new line underneath.
+***
 
-```markdown
-# Heading
+### Возможности
 
-This is some paragraph text, with a [link](https://docs.gitbook.com) to our docs. 
+* **Reviews Dashboard** — список отзывов с фильтрацией, сортировкой и drill-down в детальные карточки.
+* **Analytics Dashboard** — полный BI-дашборд:
+  * KPI-карточки (количество отзывов, распределение тональностей и т.д.)
+  * Диаграмма по тональностям (PieChart)
+  * Популярные темы (BarChart)
+  * Динамика количества отзывов по датам (LineChart)
+  * Геоаналитика: карта с распределением отзывов по городам
+* **Детальная карточка отзыва** — с темами, тональностями и переходом на оригинальный источник.
+* Лёгкий и быстрый фронт на **Vite + React + Chakra UI**.
 
-## Heading 2
-- Point 1
-- Point 2
-- Point 3
+***
+
+### Стек
+
+* [React 18](https://react.dev/)
+* [Vite](https://vitejs.dev/)
+* [Chakra UI](https://chakra-ui.com/)
+* [React Router](https://reactrouter.com/)
+* [Recharts](https://recharts.org/)
+* [React Simple Maps](https://www.react-simple-maps.io/)
+* [Framer Motion](https://www.framer.com/motion/)
+
+***
+
+### Установка и запуск
+
+```bash
+# клонирование репозитория
+git clone https://github.com/ваш-аккаунт/hack-dashboard.git
+cd hack-dashboard
+
+# установка зависимостей
+npm install
+
+# запуск в dev-режиме
+npm run dev
 ```
 
-{% hint style="info" %}
-If you have multiple files, GitBook makes it easy to import full repositories too — allowing you to keep your GitBook content in sync.
-{% endhint %}
+Приложение будет доступно на [http://localhost:5173](http://localhost:5173).
+
+***
+
+### Структура проекта
+
+```
+src/
+  components/         # UI-компоненты (KPI, графики, карты, навбар и т.д.)
+  pages/              # страницы (Reviews, Analytics, API, DataLens, Review details)
+  hooks/              # кастомные React-хуки
+  services/           # работа с API и бэкендом
+  utils/              # вспомогательные утилиты
+  theme.js            # тема Chakra UI
+  App.jsx             # роутинг приложения
+  main.jsx            # точка входа
+public/
+  logos/              # логотипы сайтов-источников
+  preview.png         # скриншот для README
+```
+
+***
+
+### Основные страницы
+
+* `/` — **Отзывы (ReviewsPage)**
+* `/review/:id` — **Детальный отзыв (ReviewPage)**
+* `/analytics` — **Аналитика (AnalyticsDashboard)**
+* `/api` — тест работы API
+* `/datalens` — встроенные внешние визуализации

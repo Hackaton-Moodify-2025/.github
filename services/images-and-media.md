@@ -1,5 +1,5 @@
 ---
-icon: image-landscape
+icon: head-side-gear
 layout:
   width: default
   title:
@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# Images & media
+# Machine Learning Service
 
 GitBook allows you to add images and media easily to your docs. Simply drag a file into the editor, or use the file manager in the upper right corner to upload multiple images at once.
 
