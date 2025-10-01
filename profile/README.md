@@ -8,6 +8,7 @@
 - **Kaledin Danila** — Software Engineer
 - **Matveeva Anna** — Data Science Engineer
 - **Lapova Julia** — Data Science Engineer
+- **Gluhikh Anastasia** — Project Manager
 
 ---
 
