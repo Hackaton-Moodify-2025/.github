@@ -18,6 +18,10 @@ layout:
 
 # Quickstart
 
+### 👉 Сайт [http://hackathonweb.ru/](http://hackathonweb.ru/)
+
+### 👉 Эндпоинт [http://51.250.24.173:8080/api/v1/ml/predict](http://51.250.24.173:8080/api/v1/ml/predict)
+
 ## [Frontend Service (React.js)](https://github.com/Hackaton-Moodify-2025/frontend)
 
 ### Установка и запуск
