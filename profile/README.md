@@ -6,6 +6,8 @@
 
 - [Команда](https://moodify.gitbook.io/docs)
 - [Быстрый старт](https://moodify.gitbook.io/docs/getting-started/quickstart)
+- [Схема/блок-диаграмма архитектуры (модель, backend, frontend, взаимодействие
+компонентов)](https://moodify.gitbook.io/docs/getting-started/diagrams)
 - [Frontend Service (React.js)](https://moodify.gitbook.io/docs/services/frontend)
 - [Backend Service (Golang)](https://moodify.gitbook.io/docs/services/backend)
 - [Ingest Service (Node.js)](https://moodify.gitbook.io/docs/services/ingest)
