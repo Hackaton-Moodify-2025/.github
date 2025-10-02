@@ -74,7 +74,7 @@ go run cmd/server/main.go
 
 ***
 
-## Ingest Service (Node.js)
+## [Ingest Service (Node.js)](https://github.com/Hackaton-Moodify-2025/ingest)
 
 ### Установка и запуск
 

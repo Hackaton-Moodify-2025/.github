@@ -18,7 +18,7 @@ layout:
 
 # Ingest Service (Node.js)
 
-## Ingest — Сервис сбора отзывов
+## [Ingest — Сервис сбора отзывов](https://github.com/Hackaton-Moodify-2025/ingest)
 
 Этот репозиторий содержит набор парсеров для сбора отзывов о банках с разных агрегаторов:
 

@@ -5,6 +5,7 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
+* [Diagrams](getting-started/diagrams.md)
 
 ## Services
 
