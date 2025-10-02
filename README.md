@@ -103,3 +103,13 @@ Backend — это центральный API-шлюз для взаимодей
 * Pydantic — валидация и схемы данных
 * MLflow — управление экспериментами и моделями
 
+### 📄 Документация (слева имеется её аналог)
+
+* [Команда](https://moodify.gitbook.io/docs)
+* [Быстрый старт](https://moodify.gitbook.io/docs/getting-started/quickstart)
+* [Схема/блок-диаграмма архитектуры (модель, backend, frontend, взаимодействие компонентов)](https://moodify.gitbook.io/docs/getting-started/diagrams)
+* [Frontend Service (React.js)](https://moodify.gitbook.io/docs/services/frontend)
+* [Backend Service (Golang)](https://moodify.gitbook.io/docs/services/backend)
+* [Ingest Service (Node.js)](https://moodify.gitbook.io/docs/services/ingest)
+* [Machine Learning Service (Python)](https://moodify.gitbook.io/docs/services/ml)
+
